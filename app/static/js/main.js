@@ -126,11 +126,11 @@ function handleMachineFormSubmit(event) {
 
 // UI Helpers
 function showError(message) {
-    // You can replace this with a more sophisticated notification system
+    // Display an error message
     alert(message);
 }
 
-// Make functions available globally for inline handlers
+// Make functions available globally
 window.updateStatus = updateMachineStatus;
 window.openStatusModal = openStatusModal;
 window.closeStatusModal = closeStatusModal;
